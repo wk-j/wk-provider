@@ -13,8 +13,7 @@ type ID3Provider() as this =
 
   let assy = System.Reflection.Assembly.GetExecutingAssembly()
   let ns = "DidacticCode.TypeProviders"
-  let id3ProviderType =
-    ProvidedTypeDefinition(assy, ns, "ID3Provider", None)
+  let id3ProviderType = ProvidedTypeDefinition(assy, ns, "ID3Provider", None)
 
   let makePropertyBody frame ([frames]) = <@@ ((%%frames:obj) :?> FrameDictionary).[frame].GetContent() @@>
 
