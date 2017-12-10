@@ -1,0 +1,1 @@
+#r "../WkTypeProvider/bin/Debug/WkTypeProvider.dll"
