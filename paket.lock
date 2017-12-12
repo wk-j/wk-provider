@@ -1,0 +1,9 @@
+RESTRICTION: >= net461
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FSharp.Core (4.2.3)
+    FSharp.TypeProviders.StarterPack (2.1)
+GITHUB
+  remote: fsprojects/FSharp.TypeProviders.StarterPack
+    src/ProvidedTypes.fs (3438c4817b4e25884169ee7be6182efa39995057)
+    src/ProvidedTypes.fsi (3438c4817b4e25884169ee7be6182efa39995057)

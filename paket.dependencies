@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+
+framework: >= net461
+nuget FSharp.Core
+
+nuget FSharp.TypeProviders.StarterPack
+
+github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypes.fsi
+github fsprojects/FSharp.TypeProviders.StarterPack src/ProvidedTypes.fs

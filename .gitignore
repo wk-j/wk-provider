@@ -2,3 +2,5 @@ packages
 bin
 obj
 *.userprefs
+paket-files
+.paket/*.exe
