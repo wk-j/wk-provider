@@ -1,9 +1,5 @@
-#r "../WkTypeProvider/bin/Debug/WkTypeProvider.dll"
+#r "../src/WkTypeProvider/bin/Debug/netstandard2.0/WkTypeProvider.dll"
 
-type Sample = Wk.TypeProviders.WkProvider< @"/Users/wk/Source/ID3TypeProvider/Resource/sample.txt" >
-let sample = Sample()
+type Sample = Wk.TypeProvider.MyType
+Sample.MyProperty |> printfn "%A"
 
-sample |> printfn "%A"
-sample.FieldA |> printfn "%A"
-sample.FieldB |> printfn "%A"
-sample.FieldC |> printfn "%A"

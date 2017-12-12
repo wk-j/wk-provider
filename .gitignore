@@ -4,3 +4,4 @@ obj
 *.userprefs
 paket-files
 .paket/*.exe
+.DS_Store
